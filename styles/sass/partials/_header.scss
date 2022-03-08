@@ -1,0 +1,28 @@
+header {
+    background-color: $tertiary;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 90px;
+
+    .headerImgContainer {
+        width: 45%;
+
+        img {
+            max-width: 100%;
+            height: auto;
+            vertical-align: middle;
+        }
+    }
+
+    .headerContent {
+        width: 55%;
+        color: $primary;
+        
+        .contentContainer {
+            margin: 0 auto;
+            width: 65%;
+        }
+    }
+
+}
